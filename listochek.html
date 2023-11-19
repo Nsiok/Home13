@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>List_buy</title>
+</head>
+<body>
+    <div>
+        <nav class="menu">
+            <ul class="nav-menu">
+                <li class="nav-item"> <a class="link" href="/lp/index.html">Главная</a></li>
+                <li class="nav-item"><a class="link" href="/пьфущвбахзщ/Index.html">Игра</a></li>
+                <li class="nav-item"> <a class="link" href="/колькулятор/kolk.html">Калькулятор </a> </li>
+                <li class="nav-item"><a class="link" href="/123/index.html">Дни в секунды </a></li>
+                <li class="nav-item"><a class="link" href="/Listochek/css/css/listochek.html"> Список</a></li>
+                <li class="nav-item"><a class="link" href="/LESSON11%20test/index.html">TEST</a></li>
+    
+            </ul>
+        </nav>
+        </div>
+        
+    <h1 class="title">📋Список дел📋</h1>
+    <div class="list">
+        <input class="task" type="text" id="task" placeholder="Добавить новое дело">
+        <button class="add-button" id="add-button">➕Добавить➕</button>
+        <ul class="todo-list" id="todo-list"></ul>
+    </div>
+
+    <div id="window" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Подтвердите удаление</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>※※※ ВЫ УВЕРЕННЫ ? ※※※</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal"> 🛑Отмена🛑</button>
+                    <button type="button" class="btn btn-primary " id="delete">❌Удалить❌</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="list.js/java.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>

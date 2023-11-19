@@ -1,0 +1,82 @@
+
+
+    
+    .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    height: 30px;
+    background-color: beige;
+    
+    }
+    
+    .nav-menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+     border: 1px;
+    }
+    
+    .nav-item {
+      margin-right: 50px;
+    }
+
+
+
+body {
+    background: url(../img/background.jpg);
+    background-size: 100%;
+    font-family: 'Irish Grover';
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    width: 70%;
+    background-color: rgb(111,78,55);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(66,57,51);
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    color: rgb( 39,27,16);
+}
+
+.question,
+option {
+    display: block;
+    color: rgb(14, 8, 3);
+
+}
+
+button {
+    font-size: 20px;
+    padding: 20px;
+    margin: 4px;
+    margin-top: 24px;
+    background-color: rgb(166,123,91);
+    color: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(177,149,118);
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 25px;
+    display: none;
+    color: black;
+}
